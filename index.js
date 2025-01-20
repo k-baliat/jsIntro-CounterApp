@@ -15,7 +15,7 @@ let count = 0
 
 function increment() {
     count += 1
-    countEl.innerText = count
+    countEl.innerText = count //can replace with textContent
 }
 
 function save() {
@@ -26,7 +26,7 @@ function save() {
 
     //sdt variable name and text name to 0
     count = 0
-    countEl=0
+    countEl.textContent=0
 }
 
 //Google
